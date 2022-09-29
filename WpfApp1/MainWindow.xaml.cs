@@ -24,12 +24,58 @@ namespace WpfApp1
         {
             InitializeComponent(); //No tocar NUNCA;
             LlenarLB1();
+            boton1.Content = "LB2 Cleaner";
+            sp1.Children.Add(
+                new Button()
+                {
+                    Content = "Boton dos",
+                    Margin = new Thickness(3),
+                });
+            Button boton3 = new Button();
+            boton3.Content = "boton 3";
+            boton3.Margin = new Thickness(3);
+            sp1.Children.Add(boton3);
+            boton3.Click += Boton3_Click;
+         }
+
+        private void Boton3_Click(object sender, RoutedEventArgs e)
+        {
+            listBox1.Items.Add("Boton 3");
         }
+
         public void LlenarLB1()
         {
             listBox1.Items.Add("Holaaaaaaa");
             listBox1.Items.Add("UWU");
-            listBox2.Items.Add("MACACOOO");
+
+
+        }
+
+
+
+        private void listBox1_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+        {
+            string elemento = listBox1.SelectedItem.ToString();
+            listBox2.Items.Add(elemento);
+            labelElemento.Content = elemento;
+            try
+            {
+                int valor = Convert.ToInt32(elemento);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Errror");
+            }
+        }
+
+        private void boton1_Click(object sender, RoutedEventArgs e)
+        {
+            listBox2.Items.Clear();
+        }
+
+        private void supu_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

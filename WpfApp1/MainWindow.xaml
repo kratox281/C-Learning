@@ -15,9 +15,26 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <ListBox x:Name="listBox1" Background="PaleVioletRed"/>
+        <ListBox x:Name="listBox1" Background="PaleVioletRed" SelectionChanged="listBox1_SelectionChanged_1"/>
         <ListBox x:Name="listBox2" Background="CadetBlue" Grid.Column="1"/>
-        
+        <Label x:Name="labelElemento"
+               Background="Black"
+               Foreground="White"
+                VerticalAlignment="Center"
+               Grid.Column="0"  Grid.Row="1"/>
+        <StackPanel 
+                x:Name="sp1"
+                Orientation="Horizontal"
+                Grid.Column="1"
+                Grid.Row="1"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+            >
+            <Button x:Name="boton1" Content="pulsa"
+                Padding="10"
+                Click="boton1_Click"/>
+            
+        </StackPanel>
 
     </Grid>
 </Window>
