@@ -1,0 +1,24 @@
+﻿<Window x:Class="Agua.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Agua"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <ProgressBar x:Name="pbAgua" 
+                     HorizontalAlignment="Center" Height="424" Margin="0,10,0,0" VerticalAlignment="Top" Width="400"
+                     Background="LightGray"
+                     Foreground="Aqua"
+                     Value="2"
+                     Maximum="10" Orientation="Vertical"/>
+        <Button x:Name="bBeber" Grid.Column="1" Content="Beber Agua" HorizontalAlignment="Left" Margin="103,91,0,0" VerticalAlignment="Top" Height="81" Width="156" Click="bBeber_Click"/>
+        <Button x:Name="bLlenar" Grid.Column="1" Content="Llenar&#xD;&#xA;" HorizontalAlignment="Left" Margin="103,289,0,0" VerticalAlignment="Top" Height="81" Width="156" Click="bLlenar_Click"/>
+    </Grid>
+</Window>
