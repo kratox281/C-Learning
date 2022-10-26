@@ -65,7 +65,7 @@ namespace TiendaDeMascotas
         {
             Mascota ms = (Mascota)lbAnimal.SelectedItem;
             mascotas.Remove(ms);
-            nomPropi.Text = "";
+            nomPropi.Text = ""; 
             nomEspecie.Text = "";
             cargarLista();
         }
