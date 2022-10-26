@@ -1,0 +1,27 @@
+﻿<Window x:Class="TiendaDeMascotas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TiendaDeMascotas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" x:Name="Cuno"/>
+            <ColumnDefinition Width="*" x:Name="Cdos">
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!-- <Grid.RowDefinitions>
+         //   <RowDefinition Height="*" x:Name="Runo"></RowDefinition>
+           // <RowDefinition Height="*" x:Name="Rdos"></RowDefinition>
+        </Grid.RowDefinitions> -->
+
+        <ListBox Grid.Column="0" x:Name="lbAnimal" SelectionChanged="lbAnimal_SelectionChanged"></ListBox>
+        <TextBlock Grid.Column="1" Grid.Row="0" x:Name="nomPropi" Margin="30,77,50,217"/>
+        <TextBlock Grid.Column="1" x:Name="nomEspecie" Margin="30,217,50,84"/>
+        <Button Content="Adoptar" Grid.Column="1" Margin="282,395,20,5" RenderTransformOrigin="0.5,0.5" Click="Button_Click">
+        </Button>
+    </Grid>
+
+</Window>
