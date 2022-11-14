@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos1eva\\AhorcadoBienHecho\\AhorcadoBienHecho.csproj",
+      "projectUniqueName": "C:\\Users\\casmarru\\C-Learning\\AhorcadoBienHecho\\AhorcadoBienHecho.csproj",
       "projectName": "AhorcadoBienHecho",
-      "projectPath": "D:\\Proyectos1eva\\AhorcadoBienHecho\\AhorcadoBienHecho.csproj",
+      "projectPath": "C:\\Users\\casmarru\\C-Learning\\AhorcadoBienHecho\\AhorcadoBienHecho.csproj",
       "packagesPath": "C:\\Users\\casmarru\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos1eva\\AhorcadoBienHecho\\obj\\",
+      "outputPath": "C:\\Users\\casmarru\\C-Learning\\AhorcadoBienHecho\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
