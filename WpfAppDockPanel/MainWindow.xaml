@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfAppDockPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppDockPanel"
+        mc:Ignorable="d"
+        Title="DockPanel" Height="450" Width="800">
+    <DockPanel LastChildFill="False">
+        <!--LastChildFill rellena el espacio disponible con el último elemento-->
+        <Button DockPanel.Dock="Top" Content="Barra de menú"/>
+        <Label x:Name="labelReloj"
+            DockPanel.Dock="Bottom" Content="barra de estado"
+               Background="Gray" Foreground="lime"
+               Padding="10"
+               HorizontalContentAlignment="Right"/>
+        <Button DockPanel.Dock="Right" Content="Columna"/>
+        <StackPanel DockPanel.Dock="Left" Background="LightBlue">
+            <Button Content="uno" Margin="20" Padding="3,10" Background="LightGreen"/>
+            <Button Content="dos" Margin="20" Padding="3,10" Background="LightGreen"/>
+            <Button Content="tres" Margin="20" Padding="3,10" Background="LightGreen"/>
+            <Button Content="cuatro" Margin="20" Padding="3,10" Background="LightGreen"/>
+            <Button Content="cinco" Margin="20" Padding="3,10" Background="LightGreen"/>
+        </StackPanel>
+        <Image Source="/fondo1.jpg" Stretch="Fill" />
+    </DockPanel>
+</Window>

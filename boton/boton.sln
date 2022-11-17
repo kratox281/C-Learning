@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "boton", "boton.csproj", "{1346AF42-A55D-4C6A-986D-D9FB6E357122}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1346AF42-A55D-4C6A-986D-D9FB6E357122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1346AF42-A55D-4C6A-986D-D9FB6E357122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1346AF42-A55D-4C6A-986D-D9FB6E357122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1346AF42-A55D-4C6A-986D-D9FB6E357122}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {825688EA-25D5-424C-9EBE-0FE3A0466ED1}
+	EndGlobalSection
+EndGlobal

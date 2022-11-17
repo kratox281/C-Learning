@@ -1,0 +1,119 @@
+﻿<Window x:Class="WpfAppEjercicio1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppEjercicio1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <GridSplitter Grid.Column ="0" Grid.RowSpan="2"
+                      Background="Coral" Width="1"
+                    HorizontalAlignment="Right" 
+                    VerticalAlignment="Stretch"/>
+        <Border Background="LightBlue" CornerRadius="90" 
+                Margin="20" Padding="20"
+                MouseEnter="Border_MouseEnter"
+                MouseLeave="Border_MouseLeave">
+            <Viewbox>
+                <TextBlock Text="pulsa aquí">
+                    <TextBlock.Effect>
+                        <BlurEffect x:Name="efecto" Radius="3"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+            </Viewbox>
+            <Border.Effect>
+                <DropShadowEffect x:Name="sombra" BlurRadius="20"  
+                                  Color="Black" />
+            </Border.Effect>
+        </Border>
+        <GroupBox  
+                  Grid.Column="1" Grid.Row="1">
+            <GroupBox.Header>
+                <TextBlock Background="DarkOrange"
+                           Padding="7" Foreground="Wheat">Datos del empleado</TextBlock>
+            </GroupBox.Header>
+            <StackPanel>
+                <TabControl Background="LightSalmon"
+                            TabStripPlacement="Top" 
+                            Margin="0, 0, 0, 10" >
+                    <TabItem x:Name="PersonalInfo">
+                        <TabItem.Header>
+                                <TextBlock Text="Empleado"/>
+                        </TabItem.Header>
+                        <StackPanel>
+                            <TextBlock>Empleado</TextBlock>
+                            <ListBox Name="lbNombre" >
+                                <ListBoxItem IsSelected="true">Esther</ListBoxItem>
+                                <ListBoxItem>George</ListBoxItem>
+                                <ListBoxItem>Alan</ListBoxItem>
+                                <ListBoxItem>Eric</ListBoxItem>
+                            </ListBox>
+                        </StackPanel>
+                    </TabItem>
+                    <TabItem>
+                        <TabItem.Header>Información _Laboral</TabItem.Header>
+                        <StackPanel>
+                            <TextBlock>Seleccione un puesto</TextBlock>
+                            <ListBox Name ="lbPuesto" >
+                                <ListBoxItem IsSelected="true">Desarrollador</ListBoxItem>
+                                <ListBoxItem>Tester</ListBoxItem>
+                                <ListBoxItem>Operador de consola</ListBoxItem>
+                                <ListBoxItem>Manager</ListBoxItem>
+                            </ListBox>
+                        </StackPanel>
+                    </TabItem>
+                    <TabItem Name="Habilidades">
+                        <TabItem.Header>_Habilidades</TabItem.Header>
+                        <StackPanel>
+                            <TextBlock>
+                                Seleccione su principal habilidad
+                            </TextBlock>
+                            <ListBox Name="lbSkils">
+                                <ListBoxItem IsSelected="true">C#</ListBoxItem>
+                                <ListBoxItem>Visual Basic</ListBoxItem>
+                                <ListBoxItem>.NET</ListBoxItem>
+                                <ListBoxItem>JScript</ListBoxItem>
+                            </ListBox>
+                        </StackPanel>
+                    </TabItem>
+                    <TabItem Name="Sumario" >
+                        <TabItem.Header>_Sumario</TabItem.Header>
+                        <StackPanel>
+                            <TextBlock Name="empleado"/>
+                            <TextBlock Name="puesto"/>
+                            <TextBlock Name="skill"/>
+                        </StackPanel>
+                    </TabItem>
+                </TabControl>
+            </StackPanel>
+        </GroupBox>
+        <Button Padding="20" Background="Black" Cursor="Hand"
+                Grid.Row="1" HorizontalAlignment="Left">
+            <StackPanel Margin="10" Background="Gray" 
+                        RenderTransformOrigin="0.5,0.5">
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-17.354"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <Image Source="/CSharp.png" Height="100" VerticalAlignment="Top"/>
+                <Label Content="Pulsa"
+                           Foreground="White"
+                           HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Button>
+
+    </Grid>
+</Window>
