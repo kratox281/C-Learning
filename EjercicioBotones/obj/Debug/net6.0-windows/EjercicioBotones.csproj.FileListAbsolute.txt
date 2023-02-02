@@ -1,0 +1,3 @@
+C:\Users\casmarru\C-Learning\EjercicioBotones\obj\Debug\net6.0-windows\EjercicioBotones.csproj.AssemblyReference.cache
+C:\Users\casmarru\C-Learning\EjercicioBotones\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\casmarru\C-Learning\EjercicioBotones\obj\Debug\net6.0-windows\EjercicioBotones_MarkupCompile.cache

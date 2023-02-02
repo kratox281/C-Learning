@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiAppKeyPad"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="MauiAppKeyPad.MainPage"
+             Title="KeyPad">
+    <ContentPage.BindingContext>
+        <local:KeypadViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="3"/>
+        </Style>
+    </ContentPage.Resources>
+    <StackLayout Margin="{OnPlatform iOS='30,60,30,30', Default=30}">
+        <Image HeightRequest="200" WidthRequest="200">
+            <Image.Source>
+                <toolkit:GravatarImageSource x:Name="avatar"
+                    Email="Prueba" Image="Robohash" />
+            </Image.Source>
+            <Image.Clip>
+                <EllipseGeometry RadiusX="100" RadiusY="100" Center="100,100" />
+            </Image.Clip>
+        </Image>
+        <Label Text="{Binding Source={x:Reference avatar}, Path=Email}"
+               HorizontalOptions="Center" FontAttributes="Bold" TextColor="CornflowerBlue"/>
+        <Grid HorizontalOptions="Center" VerticalOptions="EndAndExpand" BackgroundColor="Black" 
+          Padding="10" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="{Binding DisplayText}" TextColor="GreenYellow"
+               Margin="0,0,10,0" FontSize="20" LineBreakMode="HeadTruncation"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="End"
+               Grid.ColumnSpan="2" />
+
+            <Button Text="&#x21E6;" Command="{Binding DeleteCharCommand}" Grid.Column="2"/>
+
+            <Button Text="1" Command="{Binding AddCharCommand}" CommandParameter="1" Grid.Row="1" />
+            <Button Text="2" Command="{Binding AddCharCommand}" CommandParameter="2" Grid.Row="1" Grid.Column="1" />
+            <Button Text="3" Command="{Binding AddCharCommand}" CommandParameter="3" Grid.Row="1" Grid.Column="2" />
+
+            <Button Text="4" Command="{Binding AddCharCommand}" CommandParameter="4" Grid.Row="2" />
+            <Button Text="5" Command="{Binding AddCharCommand}" CommandParameter="5" Grid.Row="2" Grid.Column="1" />
+            <Button Text="6" Command="{Binding AddCharCommand}" CommandParameter="6" Grid.Row="2" Grid.Column="2" />
+
+            <Button Text="7" Command="{Binding AddCharCommand}" CommandParameter="7" Grid.Row="3" />
+            <Button Text="8" Command="{Binding AddCharCommand}" CommandParameter="8" Grid.Row="3" Grid.Column="1" />
+            <Button Text="9" Command="{Binding AddCharCommand}" CommandParameter="9" Grid.Row="3" Grid.Column="2" />
+
+            <Button Text="*" Command="{Binding AddCharCommand}" CommandParameter="*" Grid.Row="4" />
+            <Button Text="0" Command="{Binding AddCharCommand}" CommandParameter="0" Grid.Row="4" Grid.Column="1" />
+            <Button Text="#" Command="{Binding AddCharCommand}" CommandParameter="#" Grid.Row="4" Grid.Column="2" />
+        </Grid>
+    </StackLayout>
+</ContentPage>

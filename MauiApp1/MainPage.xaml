@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+    <StackLayout Orientation="Vertical" Spacing="7">
+        <HorizontalStackLayout HorizontalOptions="Start" Spacing="10">
+            <Label Text="Bill" Margin="10"/>
+            <Entry x:Name="total" Margin="10"></Entry>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Start" Spacing="10">
+            <Label Text="Tip "/>
+            <Label Text="0.00" x:Name="Propina"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Start" Spacing="10">
+            <Label Text="Total"/>
+            <Label Text="0.00" x:Name="Total"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Start" Spacing="10">
+            <Label Text="Porcentaje de propina"/>
+            <Label Text="0%"  x:Name="pPorcentaje"/>
+        </HorizontalStackLayout>
+        <Slider x:Name="sliderPorcentaje" Maximum="100"/>
+        <HorizontalStackLayout HorizontalOptions="Start" Spacing="10">
+            <Button x:Name="roundDown" Clicked="OnNormalTip" Text="15%"/>
+            <Button x:Name="roundUp" Clicked="OnGenerousTip" Text="20%"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Start" Spacing="10">
+            <Button/>
+            <Button/>
+        </HorizontalStackLayout>
+    </StackLayout>
+
+</ContentPage>

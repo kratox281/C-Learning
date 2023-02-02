@@ -1,0 +1,12 @@
+G:\sources\MauiAppCalculadora\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiAppCalculadora.csproj.AssemblyReference.cache
+G:\sources\MauiAppCalculadora\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+G:\sources\MauiAppCalculadora\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+G:\sources\MauiAppCalculadora\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+G:\sources\MauiAppCalculadora\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+G:\sources\MauiAppCalculadora\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+G:\sources\MauiAppCalculadora\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+G:\sources\MauiAppCalculadora\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+G:\sources\MauiAppCalculadora\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+G:\sources\MauiAppCalculadora\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+G:\sources\MauiAppCalculadora\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+G:\sources\MauiAppCalculadora\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiAppCalculadora.GeneratedMSBuildEditorConfig.editorconfig

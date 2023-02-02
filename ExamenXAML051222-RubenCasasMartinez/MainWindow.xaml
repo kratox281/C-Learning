@@ -1,0 +1,100 @@
+﻿<Window x:Class="ExamenXAML051222.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamenXAML051222"
+        mc:Ignorable="d"
+        Language="es-ES"
+        Title="Examen XAML 05/12/2022" Height="450" Width="800">
+    <Window.Resources>
+        <!--#region ejercicio1-->
+        <!--estilo para los botones-->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="Aqua"></Setter>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect/>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Green"/>
+                </Trigger>
+                <Trigger Property="IsMouseCaptured" Value="True">
+
+                    <Setter Property="Width" Value="60"/>
+                    <Setter Property="Height" Value="30"/>
+                </Trigger>
+                <Trigger Property="IsMouseCaptured" Value="True">
+                    <Setter Property="Background" Value="Salmon"/>
+                    <Setter Property="BorderThickness" Value="5"/>
+                    <Setter Property="BorderBrush" Value="DarkSalmon"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <!--#endregion-->
+
+        <!--#region ejercicio2-->
+        <x:Array x:Key="Articulos" Type="local:Articulo">
+            <local:Articulo Referencia="1234563654" Descripcion="SSD Hyperx Kingston" Precio="82" Foto="Imagenes\ssd.jpg"/>
+            <local:Articulo Referencia="4569874454" Descripcion="intel i7" Precio="260  " Foto="Imagenes\intel i7.png"/>
+            <local:Articulo Referencia="2654292988" Descripcion="SDRAM DDR4 Corsair" Precio="150" Foto="Imagenes\sdram ddr4.jpg"/>
+            <local:Articulo Referencia="9587878578" Descripcion="Samsumg 970 EVO" Precio="270" Foto="Imagenes\Samsung-970-EVO.jpg"/>
+        </x:Array>
+        <!--estilo para los los elementos del listbox-->
+        <Style TargetType="ListBox">
+            <Setter Property="Background" Value="White" />
+        </Style>
+        <Style TargetType="ListBoxItem">
+            <Setter Property="Background" Value="Salmon"></Setter>
+            <Setter Property="Foreground" Value="Green"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Aquamarine"/>
+                </Trigger>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="Aquamarine"></Setter>
+                    <Setter Property="BorderBrush" Value="Blue"></Setter>
+                    <Setter Property="BorderThickness" Value="5"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <!--#endregion-->
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--#region ejercicio1-->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Background="LightYellow" HorizontalAlignment="Center">
+            <Button Width="50" Height="20" Margin="10" HorizontalAlignment="Center" Content="Boton1"/>
+            <Button Width="50" Height="20" Margin="10" HorizontalAlignment="Center" Content="Boton2"/>
+            <Button  Width="50" Height="20" Margin="10" HorizontalAlignment="Center" Content="Boton3"/>
+
+        </StackPanel>
+        <!--#endregion-->
+
+        <!--#region ejercicio2-->
+        <StackPanel Orientation="Horizontal">
+            <ListBox Width="259" x:Name="list" ItemsSource="{StaticResource Articulos}" Height="286" >
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Padding="5,0,5,0" Text="{Binding Descripcion}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <TextBlock HorizontalAlignment="Center" Text="{Binding ElementName=list,Path=SelectedItem.Marca}"/>
+            <StackPanel Width="538">
+                <Image Source="{Binding ElementName=list,Path=SelectedItem.Foto}" Height="216" Width="244"></Image>
+                <TextBlock Background="Gray" Foreground="White" FontSize="20" Text="{Binding SelectedItem.Referencia, ElementName=list}"/>
+                <Label Foreground="Red" HorizontalAlignment="Center" FontSize="60" Content="{Binding ElementName=list,Path=SelectedItem.Precio}"/>
+            </StackPanel>
+        </StackPanel>
+        <!--#endregion-->
+    </Grid>
+
+</Window>

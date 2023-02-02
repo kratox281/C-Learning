@@ -1,0 +1,81 @@
+G:\sources\ExamenXAML051222\bin\Debug\net6.0-windows\ExamenXAML051222.exe
+G:\sources\ExamenXAML051222\bin\Debug\net6.0-windows\ExamenXAML051222.deps.json
+G:\sources\ExamenXAML051222\bin\Debug\net6.0-windows\ExamenXAML051222.runtimeconfig.json
+G:\sources\ExamenXAML051222\bin\Debug\net6.0-windows\ExamenXAML051222.dll
+G:\sources\ExamenXAML051222\bin\Debug\net6.0-windows\ExamenXAML051222.pdb
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.csproj.AssemblyReference.cache
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\MainWindow.g.cs
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\App.g.cs
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222_MarkupCompile.cache
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222_MarkupCompile.lref
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\MainWindow.baml
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.g.resources
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.GeneratedMSBuildEditorConfig.editorconfig
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.AssemblyInfoInputs.cache
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.AssemblyInfo.cs
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.csproj.CoreCompileInputs.cache
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.dll
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\refint\ExamenXAML051222.dll
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.pdb
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.genruntimeconfig.cache
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\ref\ExamenXAML051222.dll
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222_Content.g.cs
+G:\sources\ExamenXAML051222\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+G:\sources\ExamenXAML051222\bin\Debug\net6.0-windows\Imagenes\intel i7.png
+G:\sources\ExamenXAML051222\bin\Debug\net6.0-windows\Imagenes\Samsung-970-EVO.jpg
+G:\sources\ExamenXAML051222\bin\Debug\net6.0-windows\Imagenes\sdram ddr4.jpg
+G:\sources\ExamenXAML051222\bin\Debug\net6.0-windows\Imagenes\ssd.jpg
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\bin\Debug\net6.0-windows\Imagenes\intel i7.png
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\bin\Debug\net6.0-windows\Imagenes\Samsung-970-EVO.jpg
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\bin\Debug\net6.0-windows\Imagenes\sdram ddr4.jpg
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\bin\Debug\net6.0-windows\Imagenes\ssd.jpg
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\bin\Debug\net6.0-windows\ExamenXAML051222.exe
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\bin\Debug\net6.0-windows\ExamenXAML051222.deps.json
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\bin\Debug\net6.0-windows\ExamenXAML051222.runtimeconfig.json
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\bin\Debug\net6.0-windows\ExamenXAML051222.dll
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\bin\Debug\net6.0-windows\ExamenXAML051222.pdb
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.csproj.AssemblyReference.cache
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222_Content.g.cs
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222_MarkupCompile.cache
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222_MarkupCompile.lref
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.g.resources
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.AssemblyInfoInputs.cache
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.AssemblyInfo.cs
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.dll
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\refint\ExamenXAML051222.dll
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.pdb
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\ExamenXAML051222.genruntimeconfig.cache
+C:\Users\Alberto\Desktop\Escritorio\Enunciados exámenes\ExamenXAML051222\obj\Debug\net6.0-windows\ref\ExamenXAML051222.dll
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\bin\Debug\net6.0-windows\Imagenes\intel i7.png
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\bin\Debug\net6.0-windows\Imagenes\Samsung-970-EVO.jpg
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\bin\Debug\net6.0-windows\Imagenes\sdram ddr4.jpg
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\bin\Debug\net6.0-windows\Imagenes\ssd.jpg
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\bin\Debug\net6.0-windows\ExamenXAML051222.exe
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\bin\Debug\net6.0-windows\ExamenXAML051222.deps.json
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\bin\Debug\net6.0-windows\ExamenXAML051222.runtimeconfig.json
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\bin\Debug\net6.0-windows\ExamenXAML051222.dll
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\bin\Debug\net6.0-windows\ExamenXAML051222.pdb
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\ExamenXAML051222.csproj.AssemblyReference.cache
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\ExamenXAML051222_Content.g.cs
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\ExamenXAML051222_MarkupCompile.cache
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\ExamenXAML051222_MarkupCompile.lref
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\ExamenXAML051222.g.resources
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\ExamenXAML051222.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\ExamenXAML051222.AssemblyInfoInputs.cache
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\ExamenXAML051222.AssemblyInfo.cs
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\ExamenXAML051222.csproj.CoreCompileInputs.cache
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\ExamenXAML051222.dll
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\refint\ExamenXAML051222.dll
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\ExamenXAML051222.pdb
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\ExamenXAML051222.genruntimeconfig.cache
+C:\Users\casmarru\Downloads\ExamenXAML051222-base\obj\Debug\net6.0-windows\ref\ExamenXAML051222.dll

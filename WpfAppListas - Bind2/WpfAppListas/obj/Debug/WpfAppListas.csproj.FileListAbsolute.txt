@@ -1,0 +1,32 @@
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\bin\Debug\WpfAppListas.exe.config
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\bin\Debug\WpfAppListas.exe
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\bin\Debug\WpfAppListas.pdb
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\obj\Debug\MainWindow.g.cs
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\obj\Debug\App.g.cs
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\obj\Debug\GeneratedInternalTypeHelper.g.cs
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\obj\Debug\WpfAppListas_MarkupCompile.cache
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\obj\Debug\WpfAppListas_MarkupCompile.lref
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\obj\Debug\MainWindow.baml
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\obj\Debug\WpfAppListas.g.resources
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\obj\Debug\WpfAppListas.Properties.Resources.resources
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\obj\Debug\WpfAppListas.csproj.GenerateResource.Cache
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\obj\Debug\WpfAppListas.csproj.CoreCompileInputs.cache
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\obj\Debug\WpfAppListas.exe
+g:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\obj\Debug\WpfAppListas.pdb
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas\WpfAppListas\obj\Debug\WpfAppListas.csprojAssemblyReference.cache
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\bin\Debug\WpfAppListas.exe.config
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\bin\Debug\WpfAppListas.exe
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\bin\Debug\WpfAppListas.pdb
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\obj\Debug\WpfAppListas.csprojAssemblyReference.cache
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\obj\Debug\MainWindow.g.cs
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\obj\Debug\App.g.cs
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\obj\Debug\WpfAppListas_MarkupCompile.cache
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\obj\Debug\WpfAppListas_MarkupCompile.lref
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\obj\Debug\MainWindow.baml
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\obj\Debug\WpfAppListas.g.resources
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\obj\Debug\WpfAppListas.Properties.Resources.resources
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\obj\Debug\WpfAppListas.csproj.GenerateResource.cache
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\obj\Debug\WpfAppListas.csproj.CoreCompileInputs.cache
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\obj\Debug\WpfAppListas.exe
+G:\Alberto\Documents\Visual Studio 2017\Projects\WpfAppListas - 2018\WpfAppListas\obj\Debug\WpfAppListas.pdb

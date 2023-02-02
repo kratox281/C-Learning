@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:App_Coleccion_MVM"
+             x:Class="App_Coleccion_MVM.MainPage"
+             >
+
+    <StackLayout>
+
+        <ListView ItemsSource="{x:Static local:Pojo.All}" x:Name="lvFotos">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <HorizontalStackLayout Spacing="10">
+                            <Image Source="{Binding EnlaceFoto}"/>
+                            <Label Text="{Binding Propiedad1}"/>
+                            <Label Text="{Binding Propiedad2}"/>
+                            <Label Text="{Binding Propiedad3}"/>
+                            
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Image Source="https://i.picsum.photos/id/159/500/500.jpg?hmac=hZCe24c4GaStfzzSNzu-uzcXoLLAdpikLVHmhSNVFKA">
+
+        </Image>
+        <Label BindingContext="{x:Reference lvFotos}" Text="{Binding SelectedItem.Propiedad1}"/>
+        <Label BindingContext="{x:Reference lvFotos}" Text="{Binding SelectedItem.Propiedad2}"/>
+        <Label BindingContext="{x:Reference lvFotos}" Text="{Binding SelectedItem.Propiedad3}"/>
+        <Button Clicked="Button_Clicked">
+            
+        </Button>
+        <Button Clicked="Button_Clicked_1">
+            
+        </Button>
+
+    </StackLayout>
+
+</ContentPage>

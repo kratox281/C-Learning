@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="FlyoutsTemaLibre.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:FlyoutsTemaLibre"
+    xmlns:views="clr-namespace:FlyoutsTemaLibre.Views"
+    FlyoutHeaderBehavior="Default"
+    Shell.FlyoutWidth="200"
+    Shell.FlyoutBehavior="Flyout">
+    <Shell.FlyoutHeader>
+        <Label Text="Coleccion de Mangas"/>
+    </Shell.FlyoutHeader>
+    <FlyoutItem Title="Main">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Berserk" Icon="marcasacrificio.png">
+        <Tab  >
+            <ShellContent ContentTemplate="{DataTemplate views:BerserkView}"/>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Kiseiju"  Icon="migi.png">
+        <Tab >
+            <ShellContent ContentTemplate="{DataTemplate views:NewPage1}"/>
+        </Tab>
+        
+    </FlyoutItem>
+    <FlyoutItem Title="DeadMan Wonderland" Icon="hombre_rojo_deadman_wonderland.png" >
+        <Tab  Icon="libros.png">
+            <ShellContent ContentTemplate="{DataTemplate views:DmwView}"/>
+        </Tab>
+        <Tab Icon="noria.png">
+            <ShellContent ContentTemplate="{DataTemplate views:DeadManWonderland}"/>
+        </Tab> 
+        <Tab Icon="hombre_rojo_deadman_wonderland.png">
+            <ShellContent ContentTemplate="{DataTemplate views:DeadmansView}"/>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="About">
+        <Tab >
+            <ShellContent ContentTemplate="{DataTemplate views:AboutPage}"/>
+        </Tab>
+    </FlyoutItem>
+
+  
+
+</Shell>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=netstandard"
+             xmlns:local="clr-namespace:MauiAppBindMVVM"
+             x:Class="MauiAppBindMVVM.MainPage"
+             Title="Fecha y hora">
+
+    <VerticalStackLayout BindingContext="{x:Static sys:DateTime.Now}"
+                         Spacing="25" Padding="30,0"
+                         VerticalOptions="Center" HorizontalOptions="Center">
+
+        <Label Text="{Binding Year, StringFormat='The year is {0}'}" />
+        <Label Text="{Binding StringFormat='The month is {0:MMMM}'}" />
+        <Label Text="{Binding Day, StringFormat='The day is {0}'}" />
+        <Label Text="{Binding StringFormat='The time is {0:T}'}" />
+        <Label Text="{Binding StringFormat='El día de la semana es {0:dddd}'}" />
+
+        <Label BindingContext="{local:MainPageViewModel}" 
+               Text="{Binding DateTime, StringFormat='{0:T}'}"
+           FontSize="18" TextColor="Green"
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+        <!--#region HSL-->
+        <VerticalStackLayout BindingContext="{local:MainPageViewModel Color=Aqua}"
+            Padding="10, 0, 10, 30">
+            <BoxView Color="{Binding Color}"
+                 HeightRequest="100"
+                 WidthRequest="100"
+                 HorizontalOptions="Center" />
+            <Label Text="{Binding Hue, StringFormat='Hue = {0:F2}'}"
+               HorizontalOptions="Center" />
+            <Slider Value="{Binding Hue}"
+                Margin="20,0,20,0" />
+            <Label Text="{Binding Saturation, StringFormat='Saturation = {0:F2}'}"
+               HorizontalOptions="Center" />
+            <Slider Value="{Binding Saturation}"
+                Margin="20,0,20,0" />
+            <Label Text="{Binding Luminosity, StringFormat='Luminosity = {0:F2}'}"
+               HorizontalOptions="Center" />
+            <Slider Value="{Binding Luminosity}"
+                Margin="20,0,20,0" />
+        </VerticalStackLayout>
+        <!--#endregion-->
+    </VerticalStackLayout>
+
+</ContentPage>

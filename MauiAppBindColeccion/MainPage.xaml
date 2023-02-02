@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiAppBindColeccion"
+             x:Class="MauiAppBindColeccion.MainPage">
+    <ContentPage.Resources>
+        <local:P2CC x:Key="colorConvert"/>
+    </ContentPage.Resources>
+    <StackLayout>
+        <ListView ItemsSource="{x:Static local:Socio.All}"  
+                  x:DataType="local:Socio"
+                  RowHeight="30"
+                  x:Name="lvSocios">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <HorizontalStackLayout Spacing="10">
+                            <Label Text="{Binding No}" />
+                            <Label Text="{Binding ApellidosSocio}" />
+                            <Label Text="{Binding TelefonoSocio, StringFormat='{}{0:###-##-##-##}'}"
+                                   TextColor="{Binding PagadoSocio,
+                                        Converter={StaticResource colorConvert}}"/>
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label VerticalOptions="End"
+             BindingContext="{x:Reference lvSocios}">
+            <Label.Text>
+                <MultiBinding StringFormat="SELECCIONADO. {0},{1},{2}">
+                    <Binding Path="SelectedItem.ApellidosSocio"/>
+                    <Binding Path="SelectedItem.NombreSocio"/>
+                    <Binding Path="SelectedItem.TelefonoSocio"/>
+                </MultiBinding>
+                    </Label.Text>
+        </Label>
+    </StackLayout>
+
+</ContentPage>

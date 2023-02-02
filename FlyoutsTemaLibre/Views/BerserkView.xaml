@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlyoutsTemaLibre.Views.BerserkView"
+             Title="Berserk">
+    <ScrollView>
+        <VerticalStackLayout>
+        <Label 
+            Text="Berserk"
+            FontSize="Header"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Image Source="berserkportada.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Text="Berserk es la obra mas conocida de Kentaro Miura(Fallecido en ),narra la vida de Guts un pobre niño abandonado en una tierra medieval, y fue acogido por un grupo de mercenarios.
+                   Al crecer se ve envuelto en laog mucho más grande tales como fuerzas  divinas, la inquisicion y diferentes animales increibles. "/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

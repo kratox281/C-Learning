@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlyoutsTemaLibre.Views.DeadManWonderland"
+             Title="DeadManWonderland">
+    <ScrollView>
+        <VerticalStackLayout>
+        <Label 
+            Text="Welcome to DeadMan Wonderland"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="Header"/>
+        <Image Source="deadman.jpg"/>
+        <Label Text="Esta es DeadMan Wonderland la nueva prision que emplea a los presos como empleados de un parque de atracciones abierot al publico"/>
+    </VerticalStackLayout>
+        </ScrollView>
+</ContentPage>

@@ -1,0 +1,1 @@
+C:\Users\casmarru\C-Learning\MauiAppKeyPad\MauiAppKeyPad.csproj;x64

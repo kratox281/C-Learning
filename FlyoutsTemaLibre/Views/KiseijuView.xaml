@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlyoutsTemaLibre.Views.NewPage1"
+             Title="Kiseijuu">
+    <ScrollView>
+    <VerticalStackLayout>
+        <Label 
+            Text="Kiseijuu (Parasyte)"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="Header"/>
+        <Image Source="parasyte.jpg" />
+            <Label Text="Llega a la tierra una raza de parasitos que controlan el cuerpo humano y se alimentan de otros seres humanos, Shinji Izumi es un estudiante al que uno de esos parasitos se le instala en el brazo por error y lucha junto a él por la supervivencia de la raza humana"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

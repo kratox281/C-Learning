@@ -1,0 +1,1 @@
+C:\Users\casmarru\C-Learning\MauiAppBindColeccion\MauiAppBindColeccion.csproj;x64
